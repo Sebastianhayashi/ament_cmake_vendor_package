@@ -23,6 +23,7 @@ BuildRequires:  ros-jazzy-ament-cmake-export-dependencies
 
 %if 0%{?with_tests}
 BuildRequires:  ros-jazzy-ament-cmake-test
+BuildRequires: ros-jazzy-ament-package
 %endif
 
 %description
